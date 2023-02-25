@@ -4,10 +4,15 @@ we have used deep neural network to automate event description and summarization
 # Requirements
 
 1.Python
+
 2.Tensorflow,keras
+
 3.flicker8k dataset (kaggle)
+
 4.google-colab
+
 5.google-drive
+
 6.FAST-API
 
 # pipeline
