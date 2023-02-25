@@ -1,4 +1,7 @@
 # club house
+
+![image](https://user-images.githubusercontent.com/24197201/221328592-f0e0bc20-2d1c-4b41-8056-ebea76f625c5.png)
+
 we have used deep neural network to automate event description and summarization from pictures being uploaded on our university page.
 
 # Requirements
