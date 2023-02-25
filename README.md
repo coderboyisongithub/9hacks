@@ -25,3 +25,6 @@ image will be fed to caption generator that will be generating caption.The gener
 # result
 
 currently frontend and backend both still under developement and are still in pre-integeration phase.Custom model for caption generator is struggling to gain accuracy enough to be proceeded and hence being re trained for better accuracy.
+
+# code
+code.py and hack.py will be the actual implementation of idea using different deep learning models.Both will generate summary for news letter.hack.py use ResNet50 and other uses incecptionV3
