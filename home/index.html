@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+
+
+    <section class="body">
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="/home/index.html">Home</a></li>
+                    <li><a href="/photograpic/index.html">photograpic</a></li>
+                    <li><a href="/esports/index.html">esports</a></li>
+                    <li><a href="/Movie/index.html">Movie</a></li>
+                    <li><a href="/Anime/index.html">Anime</a></li>
+                    <li><a href="/Music/index.html">Music</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="img/menu.png" alt="" id="menu">
+        </div>
+
+        <div>
+            <h1 class="heading">Clubs-SRMAP</h1>
+        </div>
+
+
+        <div>
+            <div class="clubls_1">
+                <div>
+                    <a href="/photograpic/index.html"><img class="photo_1" src="img/photography.jpeg" alt=""></a>
+                </div>
+                <div>
+                    <a href="/esports/index.html"><img class="photo_2" src="img/esports.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="/Movie/index.html"><img class="photo_3" src="img/movie.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="clubs_2">
+                <div>
+                    <a href="/Anime/index.html"><img class="photo_3" src="img/anime.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="/Music/index.html"><img class="photo_3" src="img/music.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="newsletter">
+            <img src="" alt="">
+        </div>
+
+    </section>
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu =document.getElementById("menu");
+        sideNav.style.right="-250px";
+        menuBtn.onclick=function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right="0";
+                menu.src="img/close.png";
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src="img/menu.png";
+            }
+        }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+    </script>
+</body>
+</html>

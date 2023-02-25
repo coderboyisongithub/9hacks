@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.logo{
+    width: 50px ;
+    margin: 20px 0px 0px 20px;
+    border-radius: 100%;
+}
+
+#sideNav{
+    z-index: 1;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+
+}
+
+.heading{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.clubls_1{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 100px;
+}
+
+.clubs_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* .clubls_1 img{
+    width: 500px;
+} */
+
+.photo_1{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.photo_2{
+    width: 400px;
+    height: 265px;
+    border-radius: 10px;
+}
+
+.photo_3{
+    width: 400px;
+    height: 265px;
+    border-radius: 10px;
+}

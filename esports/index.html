@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Sports</title>
+</head>
+<body>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="/home/index.html">Home</a></li>
+                <li><a href="/photograpic/index.html">photograpic</a></li>
+                <li><a href="/esports/index.html">esports</a></li>
+                <li><a href="/Movie/index.html">Movie</a></li>
+                <li><a href="/Anime/index.html">Anime</a></li>
+                <li><a href="/Music/index.html">Music</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu.png" alt="" id="menu">
+    </div>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu =document.getElementById("menu");
+        sideNav.style.right="-250px";
+        menuBtn.onclick=function(){
+            if(sideNav.style.right=="-250px"){
+                sideNav.style.right="0";
+                menu.src="img/close.png";
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src="img/menu.png";
+            }
+        }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+</script>
+
+    <div class="top">
+        <div>
+            <h1 class="heading">E-Sports</h1>
+        </div>
+        <div class="discription">
+            <h1>What we do....</h1>
+            <p>
+                The e-sports club of SRM University-AP, Andhra Pradesh is an excellent platform for our <br>
+                talented students to take a break from their learning schedule and indulge in a relaxing fun time while <br>
+                enhancing their cognitive skills. The club enables students to play video games at their leisure,<br>
+                interact with their fellow mates, and show their skills in competitions organized frequently.
+            </p>
+        </div>
+            
+        <section class="Activities">
+        <h1>Activities</h1>
+
+        <div class="row">
+            <div class="Activities-col">
+                <img src="img/gaming_nights.jpeg" alt="">
+                <div class="layer">
+                    <h3>Gaming Nights</h3>
+                </div>
+            </div>
+            <div class="Activities-col">
+                <img src="img/tourniments.jpg" alt="">
+                <div class="layer">
+                    <h3>Tournements</h3>
+                </div>
+            </div>
+            <div class="Activities-col">
+                <img src="img/nature.jpg" alt="">
+                <div class="layer">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+<section class="announcements_sec">
+        <div class="announcements_title">
+            <h1>Announcements</h1>
+        </div>
+        <div class="announcements">
+            <div> 
+                <a href=""><img class="recrute" src="img/recruting.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img class="volentiers" src="img/volentiers.jpg" alt=""></a>
+            </div>
+        </div>
+</section>
+
+
+
+<section class="collection">
+        <h1>Focus on</h1>
+
+        <div class="collection_row">
+            <div class="collection-col">
+                <img src="img/bgmi.jpg" alt="">
+                <div class="collection_layer">
+                    <h3>Pubg</h3>
+            </div>
+            </div>
+            <div class="collection-col">
+                <img src="img/fortnite.jpg" alt="">
+                <div class="collection_layer">
+                    <h3>fortnite</h3>
+                </div>
+            </div>
+            <div class="collection-col">
+                <img src="img/esports3.jpg" alt="">
+                <div class="collection_layer">
+                    <h3>Volorant</h3>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section>
+    <div class="admins">
+        <h1>Admins</h1>
+        <div class="admins_row">
+            <div class="Admins-col">
+                <img src="img/user1.jpg" alt="">
+                <div>
+                    <h2>Convenier</h2>
+                    <h3>Christine Berkley</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores culpa accusantium mollitia dolorem ducimus nobis sint. Aspernatur facere optio cupiditate eveniet deserunt aut molestiae harum repellat, laboriosam possimus iure.</p>
+                </div>
+            </div>
+            <div class="Admins-col">
+                <img src="img/user2.jpg" alt="">
+                <div>
+                    <h2>co-conviner</h2>
+                    <h3>Deepak Varma</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores culpa accusantium mollitia dolorem ducimus nobis sint. Aspernatur facere optio cupiditate eveniet deserunt aut molestiae harum repellat, laboriosam possimus iure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
